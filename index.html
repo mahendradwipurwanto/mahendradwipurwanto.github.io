@@ -24,23 +24,23 @@
 
     @keyframes blinkingItem {
       0% {
-        opacity: 0%;
+        opacity: 10%;
       }
 
       49% {
-        opacity: 20%;
+        opacity: 25%;
       }
 
       60% {
-        opacity: 40%;
+        opacity: 50%;
       }
 
       99% {
-        opacity: 80%;
+        opacity: 75%;
       }
 
       100% {
-        opacity: 100%;
+        opacity: 10%;
       }
     }
 
@@ -49,8 +49,7 @@
     }
 
     .btn:hover{
-      transform: rotate(360d);
-      border-radius: 50%;
+      animation: blinkingItem 1s infinite;
     }
     
     a{
